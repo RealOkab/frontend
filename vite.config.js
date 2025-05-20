@@ -19,4 +19,5 @@ export default defineConfig({
     port: process.env.PORT || 10000,
     allowedHosts: ["klinchem-enterprise-frontend.onrender.com"],
   },
+  base: "/klinchem/",
 });
