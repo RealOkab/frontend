@@ -4,9 +4,6 @@ import react from "@vitejs/plugin-react-swc";
 
 // https://vite.dev/config/
 export default defineConfig({
-  define: {
-    "process.env.NODE_ENV": JSON.stringify("production"),
-  },
   plugins: [react()],
   server: {
     host: "0.0.0.0",
@@ -14,4 +11,7 @@ export default defineConfig({
     allowedHosts: ["klinchem-enterprise.onrender.com"],
   },
   base: "/klinchem/signIn",
+  build: {
+    minify: true,
+  },
 });
