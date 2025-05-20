@@ -4,6 +4,7 @@ import react from "@vitejs/plugin-react-swc";
 import cleanPlugin from "vite-plugin-clean";
 // https://vite.dev/config/
 export default defineConfig({
+  mode: "production",
   plugins: [
     react(),
     cleanPlugin({

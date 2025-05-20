@@ -60,6 +60,9 @@ function App() {
     setFlashCardStatus(status);
   };
 
+  console.log(import.meta.env.VITE_MODE);
+  // Should print "production"
+
   const handleCartData = (val) => {
     setCartItems(val);
   };
