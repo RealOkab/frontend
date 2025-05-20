@@ -1,10 +1,15 @@
 /* eslint-disable no-undef */
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-import { visualizer } from "rollup-plugin-visualizer";
+import cleanPlugin from "vite-plugin-clean";
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), visualizer({ open: true })],
+  plugins: [
+    react(),
+    cleanPlugin({
+      targetFiles: ["dist", "test"], // Cleans both 'dist' and 'test' directories
+    }),
+  ],
   server: {
     host: "0.0.0.0",
     port: process.env.PORT || 10000,
