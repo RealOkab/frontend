@@ -2,7 +2,7 @@ import { Suspense, lazy } from "react";
 import { useEffect } from "react";
 
 const CreateProducts = lazy(() => import("./pages/Products/CreateProducts"));
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 const Company_Details = lazy(() => import("./components/Company_Details"));
 const Products = lazy(() => import("./pages/Products/Products"));
@@ -76,84 +76,76 @@ function App() {
           <div className="text-center text-lg">Loading... Please wait</div>
         }
       >
-        <BrowserRouter basename="/klinchem">
-          <Routes>
-            <Route path="/klinchem/signup" element={<Signup />} />
-            <Route path="/klinchem/signIn" element={<SignIn />} />
-            <Route path="/" element={<Homepage />} />
-            <Route path="/klinchem/checkout" element={<CheckOutPage />} />
-            <Route
-              path="/products/new"
-              element={<CreateProducts takeCardStatus={takeCardStatus} />}
-            />
-            <Route
-              path="/products"
-              element={
-                <Products
-                  getCartItems={getCartItems}
-                  cartItems={cartItems}
-                  handleModalState={handleModalState}
-                  modalStatus={modalStatus}
-                  handleModalState2={handleModalState2}
-                  sendDetails={getDetails}
-                  flashCardStatus={flashCardStatus}
-                  nullifyFlashCardStataus={nullifyFlashCardStataus}
-                  showProduct={showProduct}
-                  handleCartData={handleCartData}
-                />
-              }
-            />
-            <Route path="/klinchem/products_blog" element={<Blog />} />
-            <Route
-              path="/klinchem/product_reviews/:id/Review"
-              element={<ProductReviews />}
-            />
-            <Route
-              path="/klinchem/products_blog/new"
-              element={<CreateBlog />}
-            />
-            <Route path="/klinchem/blog/:id/update" element={<UpdateBlog />} />
-            <Route
-              path="/klinchem/blogSuccessSeletion"
-              element={
-                <SuccesDeletion
-                  message={"Blog Succesfully Deleted. Navigate back"}
-                  buttonCaption={"View Blog"}
-                  url={"/klinchem/products_blog"}
-                />
-              }
-            />
-            <Route path="/klinchem/products_reviews" element={<Reviews />} />
-            <Route
-              path={`/klinchem/:id/products_Details`}
-              element={<Details />}
-            />
-            <Route
-              path={`/klinchem/:id/editProduct`}
-              element={<EditProduct />}
-            />
-            <Route
-              path={`/klinchem/ProductReviews/new`}
-              element={<CreateReviews />}
-            />
-            <Route
-              path={`/klinchem/ProductReviews/:id/update`}
-              element={<UpdateReview />}
-            />
-            <Route path="/klinchem/home" element={<Homepage />} />
+        <Routes>
+          <Route path="/klinchem/signup" element={<Signup />} />
+          <Route path="/klinchem/signIn" element={<SignIn />} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="/klinchem/checkout" element={<CheckOutPage />} />
+          <Route
+            path="/products/new"
+            element={<CreateProducts takeCardStatus={takeCardStatus} />}
+          />
+          <Route
+            path="/products"
+            element={
+              <Products
+                getCartItems={getCartItems}
+                cartItems={cartItems}
+                handleModalState={handleModalState}
+                modalStatus={modalStatus}
+                handleModalState2={handleModalState2}
+                sendDetails={getDetails}
+                flashCardStatus={flashCardStatus}
+                nullifyFlashCardStataus={nullifyFlashCardStataus}
+                showProduct={showProduct}
+                handleCartData={handleCartData}
+              />
+            }
+          />
+          <Route path="/klinchem/products_blog" element={<Blog />} />
+          <Route
+            path="/klinchem/product_reviews/:id/Review"
+            element={<ProductReviews />}
+          />
+          <Route path="/klinchem/products_blog/new" element={<CreateBlog />} />
+          <Route path="/klinchem/blog/:id/update" element={<UpdateBlog />} />
+          <Route
+            path="/klinchem/blogSuccessSeletion"
+            element={
+              <SuccesDeletion
+                message={"Blog Succesfully Deleted. Navigate back"}
+                buttonCaption={"View Blog"}
+                url={"/klinchem/products_blog"}
+              />
+            }
+          />
+          <Route path="/klinchem/products_reviews" element={<Reviews />} />
+          <Route
+            path={`/klinchem/:id/products_Details`}
+            element={<Details />}
+          />
+          <Route path={`/klinchem/:id/editProduct`} element={<EditProduct />} />
+          <Route
+            path={`/klinchem/ProductReviews/new`}
+            element={<CreateReviews />}
+          />
+          <Route
+            path={`/klinchem/ProductReviews/:id/update`}
+            element={<UpdateReview />}
+          />
+          <Route path="/klinchem/home" element={<Homepage />} />
 
-            <Route
-              path="/klinchem/products_reviews/success"
-              element={
-                <SuccesDeletion
-                  message={"Review successflly detleted. Navigate back."}
-                  buttonCaption={"View Review"}
-                  url={"/klinchem/products_reviews"}
-                />
-              }
-            />
-          </Routes>
-        </BrowserRouter>
+          <Route
+            path="/klinchem/products_reviews/success"
+            element={
+              <SuccesDeletion
+                message={"Review successflly detleted. Navigate back."}
+                buttonCaption={"View Review"}
+                url={"/klinchem/products_reviews"}
+              />
+            }
+          />
+        </Routes>
         <footer className="fixed bottom-0 text-[8px]  bg-gray-900 rounded w-[95%] text-white p-4 text-center">
           <p>
             &copy; {new Date().getFullYear()} Klinchem Enterprise. All rights

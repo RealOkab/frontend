@@ -5,6 +5,9 @@ import viteCompression from "vite-plugin-compression";
 
 // https://vite.dev/config/
 export default defineConfig({
+  define: {
+    "process.env.NODE_ENV": JSON.stringify("production"),
+  },
   plugins: [
     react(),
     viteCompression({
@@ -19,5 +22,5 @@ export default defineConfig({
     port: process.env.PORT || 10000,
     allowedHosts: ["klinchem-enterprise.onrender.com"],
   },
-  base: "/klinchem/",
+  base: "/klinchem/signIn",
 });
