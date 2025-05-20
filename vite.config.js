@@ -1,0 +1,16 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import viteCompression from "vite-plugin-compression";
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [
+    react(),
+    viteCompression({
+      algorithm: "brotliCompress", // or 'gzip'
+      ext: ".br", // or '.gz'
+      threshold: 1024, // Compress files larger than 1KB
+      deleteOriginFile: false, // Set to true if you want to remove original files
+    }),
+  ],
+});
