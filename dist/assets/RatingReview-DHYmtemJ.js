@@ -1,0 +1,1 @@
+import{j as e}from"./index-Cuq6Fq7V.js";function t({rating:t,setRating:r,handleReview:n,textSize:a,...i}){return e.jsx("div",{children:[1,2,3,4,5].map(((s,o)=>e.jsxs("span",{className:`start cursor-pointer ${a} ${t>=s?"text-green-600 hover:text-green-700":"text-gray-500 hover:text-gray-600"}`,onClick:()=>{r(s),n(s)},...i,children:[" ","★"," "]},o)))})}export{t as R};
