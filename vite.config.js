@@ -13,4 +13,8 @@ export default defineConfig({
       deleteOriginFile: false, // Set to true if you want to remove original files
     }),
   ],
+  server: {
+    host: "0.0.0.0",
+    port: 5173,
+  },
 });
