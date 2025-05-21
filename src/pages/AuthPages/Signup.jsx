@@ -38,14 +38,14 @@ const Signup = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 animate-flyin">
-      <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md transform transition duration-500 hover:scale-105">
+    <div className="min-h-screen flex items-center justify-center bg-transparent animate-flyin">
+      <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md  md:w-1/2 transform transition duration-500 hover:scale-105">
         <h1 className="text-2xl font-bold mb-6 text-center text-gray-700">
           Sign Up
         </h1>
         <form onSubmit={handleSubmit} className="space-y-6 text-gray-900">
           <div>
-            <label className="block mb-2 text-sm font-medium text-gray-700">
+            <label className="block mb-2 text-[1.3em] font-medium text-gray-700">
               Name
             </label>
             <input
@@ -58,7 +58,7 @@ const Signup = () => {
             />
           </div>
           <div>
-            <label className="block mb-2 text-sm font-medium text-gray-700">
+            <label className="block mb-2 text-[1.3em] font-medium text-gray-700">
               Email
             </label>
             <input
@@ -71,7 +71,7 @@ const Signup = () => {
             />
           </div>
           <div>
-            <label className="block mb-2 text-sm font-medium text-gray-700">
+            <label className="block mb-2 text-[1.3em] font-medium text-gray-700">
               Password
             </label>
             <input

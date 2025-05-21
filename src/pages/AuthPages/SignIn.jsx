@@ -39,7 +39,7 @@ const SignIn = () => {
 
   return (
     <div className="min-h-screen flex text-[1.3em] items-center justify-center bg-transparent  w-[100%] animate-flyin">
-      <div className="bg-white p-8  rounded-lg shadow-md w-full max-w-md transform transition duration-500 hover:scale-105">
+      <div className="bg-white p-8  rounded-lg shadow-md w-full max-w-md md:w-1/2 transform transition duration-500 hover:scale-105">
         <h1 className="text-2xl font-bold mb-6 text-center text-gray-700">
           Sign In
         </h1>
