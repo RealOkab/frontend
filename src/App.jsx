@@ -71,7 +71,7 @@ function App() {
   const nullifyFlashCardStataus = (st) => [setFlashCardStatus(st)];
 
   return (
-    <div className=" relative flex flex-col font-Montserrat text-gray-50 z-10 bg-[url('./images/background.avif')] bg-cover bg-no-repeat w-full min-h-screen justify-start items-center">
+    <div className=" relative flex flex-col font-Montserrat text-gray-50 z-10 bg-[url('/background.avif')] bg-cover bg-no-repeat w-full min-h-screen justify-start items-center">
       <Company_Details />
       {isLoggedIn && (
         <NavBar cartItems={cartItems} handleModalState={handleModalState} />

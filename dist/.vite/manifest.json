@@ -1,0 +1,543 @@
+{
+  "_Modal.js": {
+    "file": "assets/Modal.js",
+    "name": "Modal",
+    "imports": [
+      "src/main.jsx"
+    ]
+  },
+  "_Modal2.js": {
+    "file": "assets/Modal2.js",
+    "name": "Modal",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_Please_wait.js": {
+    "file": "assets/Please_wait.js",
+    "name": "Please_wait",
+    "assets": [
+      "assets/loading-gif.gif",
+      "assets/Please_wait.gif"
+    ]
+  },
+  "_Please_wait2.js": {
+    "file": "assets/Please_wait2.js",
+    "name": "Please_wait"
+  },
+  "_RatingReview.js": {
+    "file": "assets/RatingReview.js",
+    "name": "RatingReview",
+    "imports": [
+      "src/main.jsx"
+    ]
+  },
+  "_RatingReview2.js": {
+    "file": "assets/RatingReview2.js",
+    "name": "RatingReview",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_index2.js": {
+    "file": "assets/index2.js",
+    "name": "index"
+  },
+  "_index22.js": {
+    "file": "assets/index22.js",
+    "name": "index2",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_index3.js": {
+    "file": "assets/index3.js",
+    "name": "index",
+    "imports": [
+      "src/main.jsx"
+    ]
+  },
+  "_index4.js": {
+    "file": "assets/index4.js",
+    "name": "index"
+  },
+  "_preload-helper.js": {
+    "file": "assets/preload-helper.js",
+    "name": "preload-helper"
+  },
+  "dist/assets/Blog.js": {
+    "file": "assets/Blog2.js",
+    "name": "Blog",
+    "src": "dist/assets/Blog.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_index22.js",
+      "_Modal2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/CheckOutPage.js": {
+    "file": "assets/CheckOutPage2.js",
+    "name": "CheckOutPage",
+    "src": "dist/assets/CheckOutPage.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/Company_Details.js": {
+    "file": "assets/Company_Details2.js",
+    "name": "Company_Details",
+    "src": "dist/assets/Company_Details.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/CreateBlog.js": {
+    "file": "assets/CreateBlog2.js",
+    "name": "CreateBlog",
+    "src": "dist/assets/CreateBlog.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_Please_wait2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/CreateProducts.js": {
+    "file": "assets/CreateProducts2.js",
+    "name": "CreateProducts",
+    "src": "dist/assets/CreateProducts.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_Please_wait2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/CreateReviews.js": {
+    "file": "assets/CreateReviews2.js",
+    "name": "CreateReviews",
+    "src": "dist/assets/CreateReviews.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_Please_wait2.js",
+      "_RatingReview2.js",
+      "_index4.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/Details.js": {
+    "file": "assets/Details2.js",
+    "name": "Details",
+    "src": "dist/assets/Details.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_index22.js",
+      "_Modal2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/EditProduct.js": {
+    "file": "assets/EditProduct2.js",
+    "name": "EditProduct",
+    "src": "dist/assets/EditProduct.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_Please_wait2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/Hompage.js": {
+    "file": "assets/Hompage2.js",
+    "name": "Hompage",
+    "src": "dist/assets/Hompage.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/ProductReviews.js": {
+    "file": "assets/ProductReviews2.js",
+    "name": "ProductReviews",
+    "src": "dist/assets/ProductReviews.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_RatingReview2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/Products.js": {
+    "file": "assets/Products2.js",
+    "name": "Products",
+    "src": "dist/assets/Products.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_Modal2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/Reviews.js": {
+    "file": "assets/Reviews2.js",
+    "name": "Reviews",
+    "src": "dist/assets/Reviews.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_RatingReview2.js",
+      "_Modal2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/SignIn.js": {
+    "file": "assets/SignIn2.js",
+    "name": "SignIn",
+    "src": "dist/assets/SignIn.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/Signup.js": {
+    "file": "assets/Signup2.js",
+    "name": "Signup",
+    "src": "dist/assets/Signup.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/SuccesDeletion.js": {
+    "file": "assets/SuccesDeletion2.js",
+    "name": "SuccesDeletion",
+    "src": "dist/assets/SuccesDeletion.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/UpdateBlog.js": {
+    "file": "assets/UpdateBlog2.js",
+    "name": "UpdateBlog",
+    "src": "dist/assets/UpdateBlog.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index4.js",
+      "_Please_wait2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "dist/assets/UpdateReview.js": {
+    "file": "assets/UpdateReview2.js",
+    "name": "UpdateReview",
+    "src": "dist/assets/UpdateReview.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_Please_wait2.js",
+      "_RatingReview2.js",
+      "_index4.js",
+      "_preload-helper.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_preload-helper.js"
+    ],
+    "dynamicImports": [
+      "dist/assets/CreateProducts.js",
+      "dist/assets/Company_Details.js",
+      "dist/assets/Products.js",
+      "dist/assets/Blog.js",
+      "dist/assets/Reviews.js",
+      "dist/assets/Details.js",
+      "dist/assets/EditProduct.js",
+      "dist/assets/CreateBlog.js",
+      "dist/assets/UpdateBlog.js",
+      "dist/assets/SuccesDeletion.js",
+      "dist/assets/CreateReviews.js",
+      "dist/assets/UpdateReview.js",
+      "dist/assets/Signup.js",
+      "dist/assets/Hompage.js",
+      "dist/assets/SignIn.js",
+      "dist/assets/ProductReviews.js",
+      "dist/assets/CheckOutPage.js"
+    ],
+    "css": [
+      "assets/index.css"
+    ]
+  },
+  "src/assets/Please_wait.gif": {
+    "file": "assets/Please_wait.gif",
+    "src": "src/assets/Please_wait.gif"
+  },
+  "src/assets/cart.avif": {
+    "file": "assets/cart.avif",
+    "src": "src/assets/cart.avif"
+  },
+  "src/assets/loading-gif.gif": {
+    "file": "assets/loading-gif.gif",
+    "src": "src/assets/loading-gif.gif"
+  },
+  "src/components/Company_Details.jsx": {
+    "file": "assets/Company_Details.js",
+    "name": "Company_Details",
+    "src": "src/components/Company_Details.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_preload-helper.js"
+    ]
+  },
+  "src/components/SuccesDeletion.jsx": {
+    "file": "assets/SuccesDeletion.js",
+    "name": "SuccesDeletion",
+    "src": "src/components/SuccesDeletion.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_preload-helper.js"
+    ]
+  },
+  "src/main.jsx": {
+    "file": "assets/main.js",
+    "name": "main",
+    "src": "src/main.jsx",
+    "isEntry": true,
+    "imports": [
+      "_preload-helper.js"
+    ],
+    "dynamicImports": [
+      "src/pages/Products/CreateProducts.jsx",
+      "src/components/Company_Details.jsx",
+      "src/pages/Products/Products.jsx",
+      "src/pages/Blogs/Blog.jsx",
+      "src/pages/Reviews/Reviews.jsx",
+      "src/pages/Products/Details.jsx",
+      "src/pages/Products/EditProduct.jsx",
+      "src/pages/Blogs/CreateBlog.jsx",
+      "src/pages/Blogs/UpdateBlog.jsx",
+      "src/components/SuccesDeletion.jsx",
+      "src/pages/Reviews/CreateReviews.jsx",
+      "src/pages/Reviews/UpdateReview.jsx",
+      "src/pages/AuthPages/Signup.jsx",
+      "src/pages/Hompage.jsx",
+      "src/pages/AuthPages/SignIn.jsx",
+      "src/pages/Products/ProductReviews.jsx",
+      "src/pages/CheckOutPage.jsx"
+    ],
+    "css": [
+      "assets/index.css"
+    ],
+    "assets": [
+      "assets/cart.avif"
+    ]
+  },
+  "src/pages/AuthPages/SignIn.jsx": {
+    "file": "assets/SignIn.js",
+    "name": "SignIn",
+    "src": "src/pages/AuthPages/SignIn.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/AuthPages/Signup.jsx": {
+    "file": "assets/Signup.js",
+    "name": "Signup",
+    "src": "src/pages/AuthPages/Signup.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Blogs/Blog.jsx": {
+    "file": "assets/Blog.js",
+    "name": "Blog",
+    "src": "src/pages/Blogs/Blog.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_index3.js",
+      "_Modal.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Blogs/CreateBlog.jsx": {
+    "file": "assets/CreateBlog.js",
+    "name": "CreateBlog",
+    "src": "src/pages/Blogs/CreateBlog.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_Please_wait.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Blogs/UpdateBlog.jsx": {
+    "file": "assets/UpdateBlog.js",
+    "name": "UpdateBlog",
+    "src": "src/pages/Blogs/UpdateBlog.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_Please_wait.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/CheckOutPage.jsx": {
+    "file": "assets/CheckOutPage.js",
+    "name": "CheckOutPage",
+    "src": "src/pages/CheckOutPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Hompage.jsx": {
+    "file": "assets/Hompage.js",
+    "name": "Hompage",
+    "src": "src/pages/Hompage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Products/CreateProducts.jsx": {
+    "file": "assets/CreateProducts.js",
+    "name": "CreateProducts",
+    "src": "src/pages/Products/CreateProducts.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_Please_wait.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Products/Details.jsx": {
+    "file": "assets/Details.js",
+    "name": "Details",
+    "src": "src/pages/Products/Details.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_index3.js",
+      "_Modal.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Products/EditProduct.jsx": {
+    "file": "assets/EditProduct.js",
+    "name": "EditProduct",
+    "src": "src/pages/Products/EditProduct.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_Please_wait.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Products/ProductReviews.jsx": {
+    "file": "assets/ProductReviews.js",
+    "name": "ProductReviews",
+    "src": "src/pages/Products/ProductReviews.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_RatingReview.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Products/Products.jsx": {
+    "file": "assets/Products.js",
+    "name": "Products",
+    "src": "src/pages/Products/Products.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_Modal.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Reviews/CreateReviews.jsx": {
+    "file": "assets/CreateReviews.js",
+    "name": "CreateReviews",
+    "src": "src/pages/Reviews/CreateReviews.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_Please_wait.js",
+      "_RatingReview.js",
+      "_index2.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Reviews/Reviews.jsx": {
+    "file": "assets/Reviews.js",
+    "name": "Reviews",
+    "src": "src/pages/Reviews/Reviews.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_index2.js",
+      "_RatingReview.js",
+      "_Modal.js",
+      "_preload-helper.js"
+    ]
+  },
+  "src/pages/Reviews/UpdateReview.jsx": {
+    "file": "assets/UpdateReview.js",
+    "name": "UpdateReview",
+    "src": "src/pages/Reviews/UpdateReview.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_Please_wait.js",
+      "_RatingReview.js",
+      "_index2.js",
+      "_preload-helper.js"
+    ]
+  }
+}
