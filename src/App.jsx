@@ -1,5 +1,6 @@
 import { Suspense, lazy } from "react";
 import { useEffect } from "react";
+import React from "react";
 
 const CreateProducts = lazy(() => import("./pages/Products/CreateProducts"));
 import { Routes, Route } from "react-router-dom";
@@ -61,6 +62,7 @@ function App() {
   };
 
   console.log(import.meta.env.VITE_MODE);
+  console.log(React.version);
   // Should print "production"
 
   const handleCartData = (val) => {
