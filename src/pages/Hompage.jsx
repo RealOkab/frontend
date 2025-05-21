@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Company_Details from "../components/Company_Details"; // Import it
+//import Company_Details from "../components/Company_Details"; // Import it
 
 const Homepage = () => {
   const navigate = useNavigate();
@@ -8,8 +8,8 @@ const Homepage = () => {
   const handleSignIn = () => navigate("/klinchem/signIn");
 
   return (
-    <div className="flex flex-col items-center justify-center p-6 overflow-visible self-center min-h-screen w-screen">
-      <header className="w-full max-w-7xl mx-auto bg-white shadow-md rounded-lg p-6 text-center mb-8 transition-transform duration-700 hover:scale-105">
+    <div className="flex text-[1.3em] flex-col items-center justify-center p-6 overflow-visible sm:flex-col md:flex-col self-center min-h-screen w-screen">
+      <header className="w-full max-w-7xl mx-auto md:h-[20vh] md:flex md:justify-center md:items-center md:flex-col bg-white shadow-md rounded-lg p-6 text-center mb-8 transition-transform duration-700 hover:scale-105">
         <h1 className="text-4xl font-bold text-blue-600 mb-4 animate-bounce">
           Welcome to Klinchem Enterprise
         </h1>
@@ -18,9 +18,9 @@ const Homepage = () => {
         </p>
       </header>
 
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl mx-auto">
+      <section className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 w-full max-w-7xl mx-auto">
         <div className="bg-white shadow-md rounded-lg p-6 text-center transform transition duration-500 hover:scale-105 mt-[3em]">
-          <h2 className="text-2xl font-bold text-blue-600 mb-4">
+          <h2 className="text-[1.3em] font-bold text-blue-600 mb-4">
             Laundry Detergents
           </h2>
           <p className="text-gray-700">
@@ -29,7 +29,7 @@ const Homepage = () => {
           </p>
         </div>
         <div className="bg-white shadow-md rounded-lg p-6 text-center transform transition duration-500 hover:scale-105">
-          <h2 className="text-2xl font-bold text-blue-600 mb-4">
+          <h2 className="text-[1.3em] font-bold text-blue-600 mb-4">
             Cleaning Solutions
           </h2>
           <p className="text-gray-700">
@@ -38,7 +38,7 @@ const Homepage = () => {
           </p>
         </div>
         <div className="bg-white shadow-md rounded-lg p-6 text-center transform transition duration-500 hover:scale-105">
-          <h2 className="text-2xl font-bold text-blue-600 mb-4">
+          <h2 className="text-[1.3em] font-bold text-blue-600 mb-4">
             Special Offers
           </h2>
           <p className="text-gray-700">

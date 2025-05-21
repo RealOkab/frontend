@@ -9,7 +9,7 @@ export default function CheckOutPage() {
       navigate(-1)
     }
   return (
-    <div className="flex justify-center item-center aligh-center text-gray-950 flex flex-col text-[1em] ">
+    <div className="flex justify-center item-center aligh-center text-gray-950  flex-col text-[1em] ">
         <section className=" w-[95%] self-center flex justify-center item-center flex-col" >
             <p className="text-[1.5em]">You are about to checkout </p>
             <p>Products you are paying for:</p>

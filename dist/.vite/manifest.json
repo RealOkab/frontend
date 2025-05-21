@@ -45,10 +45,7 @@
   },
   "_index22.js": {
     "file": "assets/index22.js",
-    "name": "index2",
-    "imports": [
-      "index.html"
-    ]
+    "name": "index2"
   },
   "_index3.js": {
     "file": "assets/index3.js",
@@ -57,9 +54,12 @@
       "src/main.jsx"
     ]
   },
-  "_index4.js": {
-    "file": "assets/index4.js",
-    "name": "index"
+  "_index32.js": {
+    "file": "assets/index32.js",
+    "name": "index3",
+    "imports": [
+      "index.html"
+    ]
   },
   "_preload-helper.js": {
     "file": "assets/preload-helper.js",
@@ -72,8 +72,8 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
       "_index22.js",
+      "_index32.js",
       "_Modal2.js",
       "_preload-helper.js"
     ]
@@ -105,7 +105,7 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
+      "_index22.js",
       "_Please_wait2.js",
       "_preload-helper.js"
     ]
@@ -117,7 +117,7 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
+      "_index22.js",
       "_Please_wait2.js",
       "_preload-helper.js"
     ]
@@ -131,7 +131,7 @@
       "index.html",
       "_Please_wait2.js",
       "_RatingReview2.js",
-      "_index4.js",
+      "_index22.js",
       "_preload-helper.js"
     ]
   },
@@ -142,8 +142,8 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
       "_index22.js",
+      "_index32.js",
       "_Modal2.js",
       "_preload-helper.js"
     ]
@@ -155,7 +155,7 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
+      "_index22.js",
       "_Please_wait2.js",
       "_preload-helper.js"
     ]
@@ -177,7 +177,7 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
+      "_index22.js",
       "_RatingReview2.js",
       "_preload-helper.js"
     ]
@@ -189,7 +189,7 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
+      "_index22.js",
       "_Modal2.js",
       "_preload-helper.js"
     ]
@@ -201,7 +201,7 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
+      "_index22.js",
       "_RatingReview2.js",
       "_Modal2.js",
       "_preload-helper.js"
@@ -214,7 +214,7 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
+      "_index22.js",
       "_preload-helper.js"
     ]
   },
@@ -225,7 +225,7 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
+      "_index22.js",
       "_preload-helper.js"
     ]
   },
@@ -246,7 +246,7 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index4.js",
+      "_index22.js",
       "_Please_wait2.js",
       "_preload-helper.js"
     ]
@@ -260,7 +260,7 @@
       "index.html",
       "_Please_wait2.js",
       "_RatingReview2.js",
-      "_index4.js",
+      "_index22.js",
       "_preload-helper.js"
     ]
   },
@@ -355,7 +355,7 @@
       "src/pages/CheckOutPage.jsx"
     ],
     "css": [
-      "assets/index.css"
+      "assets/main.css"
     ],
     "assets": [
       "assets/cart.avif"
