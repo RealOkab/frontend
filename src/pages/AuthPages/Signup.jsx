@@ -3,6 +3,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
+  const [error, setError] = useState(false);
+
   const [formData, setFormData] = useState({
     userName: "",
     userEmail: "",
@@ -34,15 +36,17 @@ const Signup = () => {
       })
       .catch((err) => {
         console.log(err);
+        setError(error?.message);
       });
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-transparent animate-flyin">
+    <div className="min-h-screen flex items-center justify-center bg-transparent animate-flyin w-[90%]">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md  md:w-1/2 transform transition duration-500 hover:scale-105">
         <h1 className="text-2xl font-bold mb-6 text-center text-gray-700">
           Sign Up
         </h1>
+        {error && <p className="text-red-500 text-center">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-6 text-gray-900">
           <div>
             <label className="block mb-2 text-[1.3em] font-medium text-gray-700">
